@@ -1,0 +1,136 @@
+@font-face 
+{
+	font-family: 'Helvetica';
+	src: url('../css/fonts/Helvetica.ttf');
+}
+@font-face 
+{
+	font-family: 'Comfortaa';
+	src: url('../css/fonts/Comfortaa-Bold.ttf');
+}
+::-webkit-input-placeholder 
+{ 
+	outline:none;
+	user-select:none;
+	cursor:Default;
+}
+:-ms-input-placeholder
+{ 
+	outline:none;
+	user-select:none;
+	cursor:Default;
+}
+::placeholder 
+{
+	outline:none;
+	user-select:none;
+	cursor:Default;
+}
+body{ margin:0px; }
+a
+{ 	
+	outline:none;
+	user-select:none;
+	cursor:Default;
+}
+div
+{
+	outline:none;
+	user-select:none;
+	cursor:Default;
+}	
+input
+{ 
+	outline:none;
+	user-select:none;
+	cursor:Default;
+}
+.e-back
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+    margin-top:0px;
+    margin-left:0px;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	background-image:url(../img/8045b25.jpg);
+	background-size:cover;
+	opacity:0.8;
+}
+.e-graphs
+{
+    width:780px;
+	height:435px;
+	position:absolute;
+	margin-top:10px;
+	margin-left:calc(50% - 390px);
+	background-color:White;
+	border-left:solid White 12px;
+	border-right:solid White 12px;
+}
+.e-data-sl
+{
+    width:780px;
+	height:72px;
+	position:absolute;
+	margin-top:447px;
+	margin-left:calc(50% - 390px);
+	background-color:White;
+	border-left:solid White 12px;
+	border-right:solid White 12px;
+}
+.e-graph-data
+{
+    width:212px;
+	height:42px;
+	position:absolute;
+	margin-top:14px;
+	margin-left:5px;
+	font-family:Comfortaa;
+	font-size:15px;
+	border:solid #018EE8 2px;
+	border-radius:5px;
+}
+.e-graph-btn
+{
+    width:90px;
+	height:42px;
+	position:absolute;
+	margin-top:14px;
+	right:5px;
+	background-color:#018EE8;
+	color:White;
+	border:none;
+	font-family:Comfortaa;
+	font-size:15px;
+	text-align:center;
+	cursor:Pointer;
+}
+.e-data-sun
+{
+    width:42px;
+	height:30px;
+	position:absolute;
+	margin-top:14px;
+	right:97px;
+	background-color:#018EE8;
+	color:White;
+	border:none;
+    font-size:20px;
+	text-align:center;
+	line-height:18px;
+	border-top:solid #018EE8 12px;
+	cursor:Pointer;
+}
+.e-ret-ie
+{
+	width:80px;
+	height:80px;
+	position:absolute;
+	bottom:30px;
+	margin-left:calc(50% - 40px);
+	background-color:Transparent;
+	border:none;
+	cursor:Pointer;
+}

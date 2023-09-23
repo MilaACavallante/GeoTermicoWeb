@@ -1,0 +1,14 @@
+{
+    "name": "climageo/climageo",
+    "autoload": {
+        "files": ["src/mongodb.php", "src/service.php"]
+    },
+    "authors": [
+        {
+            "name": "Agatha e Camila"
+        }
+    ],
+    "require": {
+        "mongodb/mongodb": "^1.15"
+    }
+}
